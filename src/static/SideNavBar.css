@@ -1,0 +1,17 @@
+.side-navbar {
+  background-color: #f0f0f0;
+  width: 250px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: -250px; /* Hidden by default */
+  transition: left 0.3s ease;
+}
+
+.side-navbar.active {
+  left: 0; /* Show when active */
+}
+
+.toggle-button {
+  margin: 20px;
+}
