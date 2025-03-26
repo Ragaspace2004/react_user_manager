@@ -24,6 +24,7 @@ function AddUser({ onAddUser }) {
         {...register("username", { required: true })}
         onChange={(e) => setFormData({ ...formData, username: e.target.value })}
       />
+      
       {errors.username && <p>Username is required</p>}
 
       <label>Email</label>
